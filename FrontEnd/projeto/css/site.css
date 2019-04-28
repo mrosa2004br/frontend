@@ -1,0 +1,19 @@
+body {
+    font-family: "Times New Roman", serif;
+    background-color: #F2FFFC;
+}
+h1, h2 {
+    font-family: "Open Sans Condensed", sans-serif;
+}
+h1 {
+    font-size: 60px;
+    background-color: lightslategray;
+    color: antiquewhite;
+    text-align: center;
+}
+h2 { 
+    font-size: 40px;
+}
+p {
+    text-align: justify;
+}
