@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+        <title>Copiar Texto</title>
+    </head>
+
+    </body>
+        <input class="frase"><button class="botao">Copiar</button><span class="copia"></span>
+        <script>
+            var inputFrase = document.querySelector('.frase');
+            var botao = document.querySelector('.botao');
+            var copia = document.querySelector('.copia');
+
+            function botaoHandler() {
+
+                // não sabe o que fazer aqui!
+                copia.textContent = inputFrase.value;
+                
+                inputFrase.value = '';
+
+                copia.classList.add('campo-valido');
+            }
+
+        botao.addEventListener('click', botaoHandler);
+    
+    </script>
+        
+    </body>
+</html>

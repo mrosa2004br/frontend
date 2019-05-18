@@ -1,0 +1,29 @@
+<meta charset="UTF-8">
+
+<script> 
+    function pulaLinha(){
+        document.write("<br>");
+        document.write("<br>");
+    }
+
+    function mostra(msg){
+        document.write(msg);
+        pulaLinha();
+    }
+
+    function r(){
+        r = ( Math.random() * 10 ) ;
+        return r.toFixed(0) ;
+    }
+    
+    var numeroPensado = r();
+    
+    var aposta = parseInt( prompt("Informe sua aposta:") );
+
+    if(aposta == numeroPensado){
+        mostra(numeroPensado + ", voce certou, Parabéns!");
+    }else{
+        mostra("Você errou, o número pensado foi " + this.numeroPensado );
+    }
+
+</script>

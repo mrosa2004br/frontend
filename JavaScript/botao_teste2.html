@@ -1,0 +1,23 @@
+<meta charset="UTF-8">
+
+<button id="botao">Clique Aqui!</button>
+
+<script>
+
+    var botao = document.querySelector("#botao");
+
+    function botaoHandler(){
+        alert("Botão clicado...");
+    }
+
+    function outroBotaoHandler(){
+        alert("Botão Clicado novamente...");
+    }
+    
+    //botao.addEventListener('click',botaoHandler);
+    //botao.addEventListener('click',outroBotaoHandler);
+
+    botao.onclick = botaoHandler;
+    botao.onclick = outroBotaoHandler;
+
+</script>
